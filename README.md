@@ -1,4 +1,4 @@
-## 示例
+## 示例 #### [^me]
 
 ### 对象的值是数组
 ```
@@ -31,6 +31,5 @@ const res = formDataToJSON(formData);
 console.log('res', res); // -> { foo : { bar : {baz: '123'} } }
 ```
 
-#### [^me]
 
 [^me]: 代码来源于axios源码1.3.5
