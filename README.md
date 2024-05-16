@@ -30,3 +30,7 @@ formData.append('foo[bar][baz]', '123');
 const res = formDataToJSON(formData);
 console.log('res', res); // -> { foo : { bar : {baz: '123'} } }
 ```
+
+#### [^me]
+
+[^me]: 代码来源于axios源码1.3.5
